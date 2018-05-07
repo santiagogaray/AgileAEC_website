@@ -5,8 +5,13 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  font-family: 'Crete Round', serif;
 }
 
+.container
+{
+
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -19,6 +24,7 @@ body {
 .carousel-caption {
   bottom: 18rem;
   z-index: 10;
+  color : #000000
 }
 
 /* Declare heights because of positioning of img element */
@@ -51,11 +57,11 @@ body {
     margin: 1px 3px;
     height: 10px;
     max-width: 10px;
-    border: 1px solid #CCC;
+    border: 1px solid #333;
     background-color: transparent;
 }
 .carousel-indicators .active {
-    background-color: #CCC;
+    background-color: #333;
     max-width: 12px;
     margin: 0 3px;
     height: 12px;
@@ -108,11 +114,8 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-    color : #000000
   }
-  .carousel-caption h1 {
-    color : #000000
-  }
+
   .featurette-heading {
     font-size: 50px;
   }
@@ -122,10 +125,4 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
-
-.container
-{
-  color: #000000;
-  font-family: 'Crete Round', serif;
 }
