@@ -29,7 +29,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 55rem;
+  height: 65rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -68,6 +68,9 @@ body {
 }
 
 
+section{
+    background-color: rgba(245,245,245,0.7);
+}
 
 
 /* MARKETING CONTENT
@@ -90,11 +93,12 @@ body {
 /* Featurettes
 ------------------------- */
 .featurette{
-  background-color: #EEE;
+  /* background-color: #EEE; */
 }
 
+
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -119,6 +123,9 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+
+
 }
 
 @media (min-width: 62em) {
