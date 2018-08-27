@@ -22,7 +22,8 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 18rem;
+  top: 0;
+  bottom: auto;
   z-index: 10;
   color : #000000
 }
@@ -36,8 +37,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 30%;
+  min-height: 30%;
+  max-width: 200%;
   max-height: 200%;
 }
 
